@@ -1,0 +1,34 @@
+1. Проверить, установлен ли пакет pillow в глобальном окружении. Если да — зафиксировать версию.
+Установить самую свежую версию pillow, если ранее она не была установлена.
+Сделать подтверждающий скриншот. «01.jpg»
+2. Создать и активировать виртуальное окружение. Убедиться, что в нем нет пакета pillow.
+Сделать подтверждающий скриншот. «02.jpg»
+3. Установить в виртуальное окружение pillow версии 7.1.1(или другой, отличной от самой свежей).
+Сделать подтверждающий скриншот. «03.jpg»
+4. Деактивировать виртуальное окружение. Сделать подтверждающий скриншот. «04.jpg»
+
+
+Установка пакета Pillow 7.1.1 завершилась с ошибкой.
+Building wheel for Pillow (setup.py) ... error
+ERROR: Command errored out with exit status 1:
+
+Pillow 7.1.1 does not support Python 3.9 and does not provide prebuilt Windows binaries.
+We do not recommend building from source on Windows.
+
+1. Установил самую свежую версию pillow.
+   -- Successfully installed pillow-8.3.2
+   Скриншот 01.jpg.
+2. Создал и активировал виртуальное окружение. Убедился, что в нем нет пакета pillow.
+   -- WARNING: Package(s) not found: pillow
+   Скриншот 02.jpg.
+3. Установил в виртуальное окружение pillow версии 8.1.1.
+   Попытка установить Pillow 7.1.1 завершилась с ошибкой.
+        Building wheel for Pillow (setup.py) ... error
+        ERROR: Command errored out with exit status 1:
+		Pillow 7.1.1 does not support Python 3.9 and does not provide prebuilt Windows binaries.
+        We do not recommend building from source on Windows.
+		........
+	Скриншот 03.jpg.
+4. Деактивировал виртуальное окружение.
+    Скриншот 04.jpg.
+	
